@@ -1,0 +1,111 @@
+footer {
+    background-color: #333A73;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+
+.navbar {
+    background-color: #333A73;
+}
+
+.navbar-text {
+    color: #333A73 !important;
+    transition: all 500ms;
+}
+
+.navbar-text:hover {
+    font-size: 105%;
+}
+
+.intext-link {
+    color: #5E67B8;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Belleza", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #333A73;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.logo-brand {
+    width: 5%;
+    display: none;
+}
+
+.responsive-image {
+    padding: 10px;
+}
+
+.rounded{
+    border-radius:25px !important; 
+   }
+
+.smaller-image {
+    width: 75%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .responsive-image {
+        max-width: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .h3-hidden-text {
+        /*display: none;*/
+    }
+    .responsive-image {
+        max-width: 50%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo-brand {
+        display: none;
+    }
+    .h3-hidden-text {
+        display: inline;
+    }
+    .responsive-image {
+        max-width: 90%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar-text {
+        font-size: 1rem;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo-brand {
+        display: inline;
+    }
+    .navbar-text {
+        font-size: 0.8rem;
+    }
+}
